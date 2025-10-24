@@ -1,6 +1,16 @@
-# 📚 목차
+# ☕ 카페 주문 시스템
+> **프로그래머스 백엔드 데브코스 6기 8회차 2팀 1차 프로젝트**
+
+![Java](https://img.shields.io/badge/Java-21-red?style=flat-square&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.3-green?style=flat-square&logo=spring)
+![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
+
+<br>
+
+## 📚 목차
 - [👥 팀 소개](#-팀-소개)
-- [☕ 카페 주문 시스템](#-카페-주문-시스템)
 - [📝 프로젝트 개요](#-프로젝트-개요)
 - [🎬 프로젝트 데모](#-프로젝트-데모)
 - [🛠️ 기술 스택](#️-기술-스택)
@@ -15,7 +25,7 @@
 
 <br>
 
-# 👥 팀 소개
+## 👥 팀 소개
 | 팀원 | GitHub | 담당 기능 |
 |------|--------|-----------|
 | **김주은** | [@jueunk617](https://github.com/jueunk617) | • 회원가입<br>• 로그인<br>• 주문 등록<br>• 주문 내역 조회 (마이페이지) |
@@ -23,17 +33,6 @@
 | **서지우** | [@Jiwoo-Seo](https://github.com/Jiwoo-Seo) | • 커피 메뉴 생성 API 구현<br>• 커피 메뉴 전체 조회 API 구현<br>• 커피 메뉴 수정 API 구현<br>• 커피 메뉴 삭제 API 구현<br>• Swagger 테스트 환경 구축<br>• API 테스트 작성<br>• 권한기반(관리자) 접근제어 |
 | **홍민애** | [@meohin](https://github.com/meohin) | • 메뉴 목록 조회<br>• 메뉴 등록<br>• 메뉴 수정<br>• 메뉴 삭제<br>• 주문 내역 조회 |
 | **순태열** | [@SoonTaeYouL](https://github.com/SoonTaeYouL) | • 회원가입 구현<br>• 비밀번호 암호화<br>• 로그인 구현<br>• JWT 토큰<br>• 스프링 시큐리티 설정 |
-
-<br>
-
-# ☕ 카페 주문 시스템
-> **프로그래머스 백엔드 데브코스 6기 8회차 2팀 1차 프로젝트**
-
-![Java](https://img.shields.io/badge/Java-21-red?style=flat-square&logo=openjdk)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.3-green?style=flat-square&logo=spring)
-![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black?style=flat-square&logo=next.js)
-![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 
 <br>
 
