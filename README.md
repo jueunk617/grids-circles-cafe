@@ -50,7 +50,7 @@
 <br>
 
 ## 🎬 프로젝트 데모
-[![NBE6-8-1-블루라이트_시연](https://img.youtube.com/vi/jompGGFIq2c/0.jpg)](https://www.youtube.com/watch?v=jompGGFIq2c)
+https://github.com/user-attachments/assets/926a6343-a6f1-4a3f-b384-fcb76c4bb305
 
 <br>
 
