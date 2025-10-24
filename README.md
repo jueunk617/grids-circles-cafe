@@ -1,9 +1,21 @@
+# 📚 목차
+- [👥 팀 소개](#-팀-소개)
+- [☕ 카페 주문 시스템](#-카페-주문-시스템)
+- [📝 프로젝트 개요](#-프로젝트-개요)
+- [🎬 프로젝트 데모](#-프로젝트-데모)
+- [🛠️ 기술 스택](#️-기술-스택)
+- [✨ 주요 기능](#-주요-기능)
+- [📘 ERD](#-erd)
+- [🧾 API 명세서](#-api-명세서)
+- [🏗️ 시스템 아키텍처](#️-시스템-아키텍처)
+- [🏗️ 프로젝트 구조](#️-프로젝트-구조)
+- [🚀 빠른 시작](#-빠른-시작)
+- [🔄 개발 프로세스](#-개발-프로세스)
+- [🧠 트러블슈팅](#-트러블슈팅)
+
+<br>
+
 # 👥 팀 소개
-
-**프로그래머스 백엔드 데브코스 6기 8회차 2팀**
-
-## 팀원별 개발 담당 기능
-
 | 팀원 | GitHub | 담당 기능 |
 |------|--------|-----------|
 | **김주은** | [@jueunk617](https://github.com/jueunk617) | • 회원가입<br>• 로그인<br>• 주문 등록<br>• 주문 내역 조회 (마이페이지) |
@@ -12,9 +24,9 @@
 | **홍민애** | [@meohin](https://github.com/meohin) | • 메뉴 목록 조회<br>• 메뉴 등록<br>• 메뉴 수정<br>• 메뉴 삭제<br>• 주문 내역 조회 |
 | **순태열** | [@SoonTaeYouL](https://github.com/SoonTaeYouL) | • 회원가입 구현<br>• 비밀번호 암호화<br>• 로그인 구현<br>• JWT 토큰<br>• 스프링 시큐리티 설정 |
 
----
+<br>
 
-# 🍽️ 음식 주문 시스템
+# ☕ 카페 주문 시스템
 > **프로그래머스 백엔드 데브코스 6기 8회차 2팀 1차 프로젝트**
 
 ![Java](https://img.shields.io/badge/Java-21-red?style=flat-square&logo=openjdk)
@@ -22,6 +34,8 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
+
+<br>
 
 ## 📝 프로젝트 개요
 
@@ -33,22 +47,12 @@
 - **확장 가능성**: 모듈화된 아키텍처와 RESTful API
 - **개발자 경험**: 자동화된 문서화(Swagger) 및 테스트 환경
 
-## 🏗️ 시스템 아키텍처
+<br>
 
-```
-┌─────────────────┐    HTTP/HTTPS    ┌─────────────────┐
-│   Frontend      │ ◄─────────────► │   Backend       │
-│   (Next.js)     │                 │ (Spring Boot)   │
-│   Port: 3000    │                 │   Port: 8080    │
-└─────────────────┘                 └─────────────────┘
-         │                                    │
-         │                                    │
-         ▼                                    ▼
-┌─────────────────┐                 ┌─────────────────┐
-│   Browser       │                 │   MySQL         │
-│   (Client)      │                 │   Database      │
-└─────────────────┘                 └─────────────────┘
-```
+## 🎬 프로젝트 데모
+[![NBE6-8-1-블루라이트_시연](https://img.youtube.com/vi/jompGGFIq2c/0.jpg)](https://www.youtube.com/watch?v=jompGGFIq2c)
+
+<br>
 
 ## 🛠️ 기술 스택
 
@@ -72,6 +76,8 @@
 | **MySQL** | 8.0+ | 관계형 데이터베이스 |
 | **Gradle** | - | 빌드 도구 |
 | **Swagger/OpenAPI** | 3.0 | API 문서화 |
+
+<br>
 
 ## ✨ 주요 기능
 
@@ -101,6 +107,66 @@
 - 📁 **파일 관리**
   - 메뉴 이미지 업로드
   - 파일 저장소 관리
+
+<br>
+
+## 📘 ERD
+[![ERD-NBE6-8-1-beullulaiteu-ERD.png](https://i.postimg.cc/kGDJ99zq/ERD-NBE6-8-1-beullulaiteu-ERD.png)](https://postimg.cc/dZPPjMJx)
+
+<br>
+
+## 🧾 API 명세서
+[![api.png](https://i.postimg.cc/jjm25D6g/api.png)](https://postimg.cc/R314pVDK)
+
+<br>
+
+## 🏗️ 시스템 아키텍처
+
+```
+┌─────────────────┐    HTTP/HTTPS    ┌─────────────────┐
+│   Frontend      │ ◄─────────────► │   Backend       │
+│   (Next.js)     │                 │ (Spring Boot)   │
+│   Port: 3000    │                 │   Port: 8080    │
+└─────────────────┘                 └─────────────────┘
+         │                                    │
+         │                                    │
+         ▼                                    ▼
+┌─────────────────┐                 ┌─────────────────┐
+│   Browser       │                 │   MySQL         │
+│   (Client)      │                 │   Database      │
+└─────────────────┘                 └─────────────────┘
+```
+
+<br>
+
+## 🏗️ 프로젝트 구조
+
+```
+NBE6-8-1-Team2/
+├── 📁 frontend/                 # Next.js 프론트엔드
+│   ├── 📁 src/
+│   │   ├── 📁 app/             # App Router 페이지
+│   │   ├── 📁 _components/     # 재사용 컴포넌트
+│   │   ├── 📁 _hooks/          # 커스텀 훅
+│   │   ├── 📁 lib/             # 유틸리티 라이브러리
+│   │   └── 📁 types/           # TypeScript 타입 정의
+│   ├── 📄 package.json
+│   └── 📄 next.config.ts
+├── 📁 backend/                  # Spring Boot 백엔드
+│   ├── 📁 src/
+│   │   ├── 📁 main/java/com/back/
+│   │   │   ├── 📁 domain/      # 도메인 로직
+│   │   │   │   ├── 📁 member/  # 회원 관리
+│   │   │   │   ├── 📁 menu/    # 메뉴 관리
+│   │   │   │   └── 📁 order/   # 주문 관리
+│   │   │   └── 📁 global/      # 공통 설정 및 유틸리티
+│   │   └── 📁 resources/
+│   ├── 📄 build.gradle.kts
+│   └── 📄 api-test.http        # API 테스트 파일
+└── 📄 README.md
+```
+
+<br>
 
 ## 🚀 빠른 시작
 
@@ -132,59 +198,7 @@ npm run dev
 | **API 문서** | http://localhost:8080/swagger-ui.html | Swagger UI |
 | **MySQL** | localhost:3306 | 데이터베이스 서버 |
 
-## 🎬 프로젝트 데모
-
-### 📸 주요 화면
-> *(실제 스크린샷을 여기에 추가 예정)*
-
-- **메인 페이지**: 메뉴 목록 및 주문 인터페이스
-- **관리자 대시보드**: 메뉴 및 주문 관리
-- **마이페이지**: 사용자 주문 내역
-
-
-## 🏗️ 프로젝트 구조
-
-```
-NBE6-8-1-Team2/
-├── 📁 frontend/                 # Next.js 프론트엔드
-│   ├── 📁 src/
-│   │   ├── 📁 app/             # App Router 페이지
-│   │   ├── 📁 _components/     # 재사용 컴포넌트
-│   │   ├── 📁 _hooks/          # 커스텀 훅
-│   │   ├── 📁 lib/             # 유틸리티 라이브러리
-│   │   └── 📁 types/           # TypeScript 타입 정의
-│   ├── 📄 package.json
-│   └── 📄 next.config.ts
-├── 📁 backend/                  # Spring Boot 백엔드
-│   ├── 📁 src/
-│   │   ├── 📁 main/java/com/back/
-│   │   │   ├── 📁 domain/      # 도메인 로직
-│   │   │   │   ├── 📁 member/  # 회원 관리
-│   │   │   │   ├── 📁 menu/    # 메뉴 관리
-│   │   │   │   └── 📁 order/   # 주문 관리
-│   │   │   └── 📁 global/      # 공통 설정 및 유틸리티
-│   │   └── 📁 resources/
-│   ├── 📄 build.gradle.kts
-│   └── 📄 api-test.http        # API 테스트 파일
-└── 📄 README.md
-```
-
-## 🎯 기술적 도전과 해결
-
-### 🔐 보안 강화
-- **문제**: 사용자 인증 및 권한 관리
-- **해결**: JWT 토큰 기반 인증 시스템 구축
-- **결과**: 안전하고 확장 가능한 인증 체계
-
-### 🚀 성능 최적화
-- **문제**: 대용량 이미지 처리 및 로딩 속도
-- **해결**: Next.js Image 컴포넌트 활용 및 이미지 최적화
-- **결과**: 사용자 경험 향상
-
-### 📱 반응형 디자인
-- **문제**: 다양한 디바이스 대응
-- **해결**: Tailwind CSS를 활용한 모바일 퍼스트 디자인
-- **결과**: 모든 디바이스에서 일관된 사용자 경험
+<br>
 
 ## 🔄 개발 프로세스
 
@@ -210,3 +224,30 @@ feat/admin-order-page   // 프론트: 관리자 주문 관리 페이지
 - **단위 테스트**: JUnit 5 활용
 - **통합 테스트**: Spring Boot Test
 - **API 테스트**: REST Client 활용
+
+<br>
+
+## 🧠 트러블슈팅
+
+### 1️⃣ 인증 방식 불일치
+- **문제**: 프론트는 Authorization 헤더, 백엔드는 쿠키 기반 → 로그인 성공했으나 인증 실패  
+- **해결**: JWT 쿠키 방식으로 통일, `JwtAuthenticationFilter`에서 쿠키 검증 후 인증 객체 등록
+
+### 2️⃣ 토큰 재발급 실패
+- **문제**: refreshToken DB 저장 누락으로 `/reissue` 실패  
+- **해결**: 로그인 시 `member.updateRefreshToken()` + `memberRepository.save()` 필수 추가
+
+### 3️⃣ 관리자 권한 처리
+- **문제**: 관리자 로그인 후 일반 페이지 이동, `/admin/**` 접근 시 403  
+- **해결**: 
+  - Security 설정에 `hasRole("ADMIN")` 명시
+  - 로그인 후 `role === "ADMIN"` 체크하여 `/admin/orders`로 리디렉션
+  - `isLoading` 상태로 권한 체크 완료 후 페이지 분기
+
+### 4️⃣ 사용자 정보 접근 복잡
+- **문제**: `@AuthenticationPrincipal` null 처리 번거로움, `memberId` 파라미터 반복 전달  
+- **해결**: `rq.getActor()` 유틸로 일관된 사용자 정보 접근
+
+### 5️⃣ 토스트 메시지 중복
+- **문제**: 로그아웃 시 메시지 여러 곳에서 출력  
+- **해결**: `AuthContext.logout()` 내부 메시지 제거, 호출부에서만 표시
