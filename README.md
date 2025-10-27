@@ -1,11 +1,10 @@
 # ☕ 카페 주문 시스템
-> **프로그래머스 백엔드 데브코스 6기 8회차 2팀 1차 프로젝트**
-
 ![Java](https://img.shields.io/badge/Java-21-red?style=flat-square&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.3-green?style=flat-square&logo=spring)
 ![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
+> **프로그래머스 백엔드 데브코스 6기 8회차 2팀 1차 프로젝트** (2025.07.14 ~ 2025.07.21)
 
 <br>
 
